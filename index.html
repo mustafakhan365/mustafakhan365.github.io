@@ -235,7 +235,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form action="mailto: mustafakhan365@gmail.com"  method="post" enctype="multipart/form-data" name="sentMessage" id="contactForm" class="needs-validation" onsubmit="return validateForm()"><!-- -->
+          <form method="post" name="sentMessage" id="contactForm" class="needs-validation" onsubmit="return validateForm()"><!-- -->
            <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -267,8 +267,7 @@
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <a role="button" type="submit" class="btn btn-warning btn-xl" name="submit" value="submit" id="sendMessageButton" target="_blank">Send</a>
-			  <input type="submit" value="submit">
+              <a href="mailto: mustafakhan365@gmail.com" role="button" type="submit" class="btn btn-warning btn-xl" name="submit" value="submit" id="sendMessageButton" target="_blank">Send</a>
             </div>
           </form>
         </div>
